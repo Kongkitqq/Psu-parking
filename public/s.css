@@ -1,0 +1,99 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#top-nav {
+    background-color: rgb(30, 64, 124);
+    color: white;
+    padding: 20px;
+}
+
+#top-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#top-nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Search Bar */
+#search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Reviews container */
+#reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+    gap: 20px; /* ระยะห่างระหว่างการ์ด */
+    margin-top: 20px;
+}
+
+/* Parking spot card */
+.parking-spot {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.parking-spot h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.parking-spot img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}

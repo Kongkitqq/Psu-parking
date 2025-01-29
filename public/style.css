@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top Navigation Bar */
+#top-nav {
+    background-color: rgb(30, 64, 124);
+    color: white;
+    padding: 20px;
+}
+
+#top-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+#top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#top-nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Faculty Navigation */
+#faculty-nav {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#faculty-nav h3 {
+    text-align: center;
+}
+
+#faculty-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#faculty-nav li {
+    margin: 10px 0;
+}
+
+#faculty-nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#faculty-nav a:hover {
+    background-color: #ddd;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Search Bar */
+#search-bar {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Parking Spots */
+#parking-spots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.parking-spot {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.parking-spot:hover {
+    transform: scale(1.05);
+}
+
+.parking-spot img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}

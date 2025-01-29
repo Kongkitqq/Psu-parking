@@ -1,0 +1,164 @@
+{
+  "parkingLots": [
+    {
+      "name": "BSC",
+      "faculty": "Faculty of Science",
+      "image": "img/1_BSC.jpg",
+      "latitude": 7.0061534485555494,
+      "longitude": 100.49967833303589,
+      "reviews": [
+        "ที่จอดรถ ค่อนข้างน้อย",
+        "สาวเยอะมาก",
+        "สวยมากๆ",
+        "ก",
+        "ที่จอดรถสะดวกสบายมาก"
+      ]
+    },
+    {
+      "name": "โรงอาหารคณะวิทยาศาสตร์",
+      "faculty": "Faculty of Science",
+      "image": "img/2_Canteen.jpg",
+      "latitude": 7.006759587651718,
+      "longitude": 100.4994226001604,
+      "reviews": [
+        "ที่จอดน้อยมาก",
+        "5/5"
+      ]
+    },
+    {
+      "name": "หอสมุดหญิงหลง",
+      "faculty": "Faculty of Science",
+      "image": "img/3_Yinglong.jpg",
+      "latitude": 7.006442223391575,
+      "longitude": 100.49807374417044,
+      "reviews": [
+        "จอดได้น้อยมาก",
+        "5/10"
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "faculty": "Faculty of Science",
+      "image": "img/11_Com_Sci.jpg",
+      "latitude": 7.0082778632327205,
+      "longitude": 100.4999518967535,
+      "reviews": [
+        "ที่จอดรถน้อยมากกกกก"
+      ]
+    },
+    {
+      "name": "ตึกฟักทอง",
+      "faculty": "Faculty of Science",
+      "image": "img/4_Pumkin.jpg",
+      "latitude": 7.009073851076303,
+      "longitude": 100.498763678162,
+      "reviews": [
+        "ที่จอดเยอะสุดๆ"
+      ]
+    },
+    {
+      "name": "Sport Complex",
+      "faculty": "Faculty of Science",
+      "image": "img/5_Sport.jpg",
+      "latitude": 7.009409283681522,
+      "longitude": 100.49994653232874,
+      "reviews": []
+    },
+    {
+      "name": "คณะวิศวกรรมศาสตร์",
+      "faculty": "Faculty of Engineering",
+      "image": "img/6_Engineer.jpg",
+      "latitude": 7.007465387144175,
+      "longitude": 100.500365609609,
+      "reviews": []
+    },
+    {
+      "name": "โรงช้าง",
+      "faculty": "Faculty of Management Science",
+      "image": "img/7_RongChang.jpg",
+      "latitude": 7.010950159394783,
+      "longitude": 100.49915325114821,
+      "reviews": []
+    },
+    {
+      "name": "คณะศิลปกรรมศาสตร์",
+      "faculty": "Faculty of Liberal Arts",
+      "image": "img/8_Liberal.jpg",
+      "latitude": 7.010689140860519,
+      "longitude": 100.49674278372349,
+      "reviews": []
+    },
+    {
+      "name": "คณะนิติศาสตร์",
+      "faculty": "Faculty of Law",
+      "image": "img/9_Law.jpg",
+      "latitude": 7.011141707028532,
+      "longitude": 100.49613124005018,
+      "reviews": []
+    },
+    {
+      "name": "คณะทรัพยากรธรรมชาติ",
+      "faculty": "Faculty of Natural Resources",
+      "image": "img/10_Natural.jpg",
+      "latitude": 7.0050935759671,
+      "longitude": 100.49954426447283,
+      "reviews": []
+    },
+    {
+      "name": "คณะสัตวแพทย์",
+      "faculty": "Faculty of Veterinary Science",
+      "image": "img/12_vet.jpg",
+      "latitude": 7.002220772520152,
+      "longitude": 100.50111390824924,
+      "reviews": []
+    },
+    {
+      "name": "คณะเภสัชศาสตร์",
+      "faculty": "Faculty of Pharmaceutical Sciences",
+      "image": "img/13_Phar.jpg",
+      "latitude": 7.005362497710973,
+      "longitude": 100.49744628349147,
+      "reviews": []
+    },
+    {
+      "name": "คณะพยาบาลศาสตร์",
+      "faculty": "Faculty of Nursing",
+      "image": "img/14_Nurse.jpg",
+      "latitude": 7.005666125744307,
+      "longitude": 100.49686003331605,
+      "reviews": []
+    },
+    {
+      "name": "คณะทันตแพทยศาสตร์",
+      "faculty": "Faculty of Dentistry",
+      "image": "img/15_Dent.jpg",
+      "latitude": 7.007194820724015,
+      "longitude": 100.49691527463554,
+      "reviews": []
+    },
+    {
+      "name": "คณะอุตสาหกรรมเกษตร",
+      "faculty": "Faculty of Agro-Industry",
+      "image": "img/16_Argo.jpg",
+      "latitude": 7.003994219404154,
+      "longitude": 100.50200462102651,
+      "reviews": []
+    },
+    {
+      "name": "คณะวิทยาการจัดการ",
+      "faculty": "Faculty of Management Science",
+      "image": "img/17_Manage.jpg",
+      "latitude": 7.011090417112031,
+      "longitude": 100.49875728422832,
+      "reviews": []
+    },
+    {
+      "name": "โรงพยาบาลสงขลานครินทร์",
+      "faculty": "Faculty of Medicine",
+      "image": "img/18_Med.jpg",
+      "latitude": 7.007975823394099,
+      "longitude": 100.4953844660652,
+      "reviews": []
+    }
+  ]
+}

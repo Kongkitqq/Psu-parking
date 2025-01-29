@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Spots</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg_uGJdPQtGeqQZfbZv092WzOPTiEbzTY"></script>
+</head>
+<body>
+    <nav id="top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="#">Setting</a></li>
+            <li><a href="review.html">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+        <nav id="faculty-nav">
+            <h3>Faculty Navigation</h3>
+            <ul>
+                <li><a href="#" data-faculty="all">All</a></li>
+                <li><a href="#" data-faculty="Faculty of Science">Faculty of Science</a></li>
+                <li><a href="#" data-faculty="Faculty of Engineering">Faculty of Engineering</a></li>
+                <li><a href="#" data-faculty="Faculty of Liberal Arts">Faculty of Liberal Arts</a></li>
+                <li><a href="#" data-faculty="Faculty of Natural Resources">Faculty of Natural Resources</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <input type="text" id="search-bar" placeholder="Search for parking spots...">
+            <div id="parking-spots"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
